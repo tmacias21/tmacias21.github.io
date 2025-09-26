@@ -187,6 +187,7 @@ main {
 .about-text {
   flex: 1;
   margin-left: 20px;
+  border-style: inset;
 }
 
 .about-text h2 {
