@@ -151,10 +151,7 @@ main {
   letter-spacing: 1px;
 }
 
-.project-details a:hover {
-  color: var(--cg-blue);
-  text-decoration: underline;
-}
+
 
 .project-details {
   font-weight: lighter;
