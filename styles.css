@@ -163,6 +163,7 @@ main {
 .project-name {
   font-weight: bold;
   font-size: 20px;
+  color: blue;
 }
 
 /* CSS for home page */
