@@ -17,12 +17,18 @@
       </nav>
     <main>
         <h1 class="page-title">Contact Trace</h1>
-        <form id="contact-form">
-            Name:<input id="name" type="text"> 
-            Email:<input id="email" type="email">
-            Message:<textarea></textarea>
-            <input type="submit">
-        </form>
+        <form action="https://formspree.io/f/xwprodpd" method="POST">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+ 
+  <button type="submit">Send</button>
+</form>
     </main>
     <footer class="footer">"© 2025 <Trace's Webpage> | All Rights Reserved"</footer>
   </body>
