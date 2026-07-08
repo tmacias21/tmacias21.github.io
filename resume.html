@@ -1,96 +1,145 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   <title>Trace's Resume</title> 
-   <link rel="stylesheet" href="styles.css" />
-   </head> 
-  <body>
-    <nav class="navbar">
-        <h1 class="logo"><a href="index.html">Trace</a></h1>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    <main>
-        <h1 class="page-title">Trace Resume</h1>
-        <a href="trace-resume.pdf">Download Resume</a>
-        <div class="resume">
-        <section class="section">
-            <h2 class="section-title">
-                Education
-            </h2>
-            <div class="entry">
-                <h3 class="entry-title">
-                    Bachelor of Science in Computer Science 
-                </h3>
-                    <p class="entry-info">
-                        California Polytechnic State University, San Luis Obispo | Expected Graduation Spring 2028
-                        
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume — Trace Macias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">
-                Coursework
-            </h2>
-                <ul class="course-list">
-                    <li>Hack4Impact Starter Pack</li>
-                    <li>Intro to Computer Science</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>(in progress) Object-Oriented Programming</li>
-                    <li>(in progress) Introduction to Computer Organization</li>
-                </ul>
-            
-        </section>
-        <section class="section">
-            <h2 class="section-title">
-                Skills
-            </h2>
-                <ul class="skill-list">
-                    <li>Proficient in Python,HTML,CSS,TypeScript</li>
-                    <li>Public speaking</li>
-                    <li>Team Collaboration</li>
-                </ul>
-        </section>
-        <section class="section">
-            <h2 class="section-title">
-                Projects
-            </h2>
-            <div class="entry">
-                <h3 class="entry-title">
-                    Personal Website
-                </h3>
-                    <p class="entry-info">
-                        Designed and built a personal webpage using HTML and CSS
-                    </p>
-                        <p class="entry-description">
-                            -Implemented multiple pages using HTML and CSS - Focused on semantic HTML design - Used best practices for Git and Github
-                        </p>
-            </div>
-        </section>
-        <section class="section">
-            <h2 class="section-title">
-                Experience
-            </h2>
-            <div class="entry">
-                <h3 class="entry-title">
-                    Coursework 
-                </h3>
-                    <p class="entry-info">
-                        Exams and Projects at Cal Poly
-                    </p>
-                        <p class="entry-description">
-                            In CSC 101 and 202, I completed 5 projects that aided in my advancement
-                        </p>
+<header class="playbill-strip">
+  <div class="wrap">
+    <div class="brand">Cal Poly SLO <strong>·</strong> Computer Science</div>
+    <nav class="playbill-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html" aria-current="page">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-            </div>
-        </section>
+<main>
+  <section class="hero wrap" style="padding-bottom: 30px;">
+    <p class="eyebrow">Full cast &amp; crew</p>
+    <h1 class="title" style="font-size: clamp(2.2rem, 5vw, 3.2rem);">Resume</h1>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="trace-resume.pdf">Download PDF</a>
+    </div>
+  </section>
+
+  <section class="section wrap" style="border-top: 1px solid var(--rule);">
+
+    <div class="resume-block">
+      <h3>Education</h3>
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">Bachelor of Science in Computer Science</p>
+          <p class="entry-meta">San Luis Obispo, CA</p>
         </div>
-      </main>
-      <footer class="footer">"© 2025 <Trace's Webpage> | All Rights Reserved"</footer>
-  </body>
+        <p class="entry-org">California Polytechnic State University, College of Engineering</p>
+        <p style="color: var(--text-muted); margin: 0;">Relevant coursework: Data Structures, Algorithms, Systems Programming, Object-Oriented Programming</p>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <h3>Technical skills</h3>
+      <div class="skills-grid">
+        <div>
+          <h4>Languages</h4>
+          <p>Python, TypeScript, Java, C, HTML/CSS</p>
+        </div>
+        <div>
+          <h4>Frameworks &amp; libraries</h4>
+          <p>React, Next.js, Node.js, Tailwind CSS, shadcn/ui, Zustand, Zod, Expo, react-pdf</p>
+        </div>
+        <div>
+          <h4>Tools &amp; APIs</h4>
+          <p>Git, VS Code, Unix/Linux, Vercel, Vitest, OpenAI APIs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <h3>Projects</h3>
+
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">FormFlow — AI Government Form Assistant</p>
+          <p class="entry-meta">May 2026</p>
+        </div>
+        <p class="entry-org">KiroHacks Cal Poly</p>
+        <ul>
+          <li>Built an AI-assisted web app with Next.js and TypeScript that lets users upload government PDFs, explain their situation in natural language, and receive guided form-filling support.</li>
+          <li>Implemented PDF upload/rendering, multilingual intake flow, state management, form validation, and test coverage using React, Tailwind CSS, shadcn/ui, react-pdf, Zustand, Zod, OpenAI APIs, and Vitest.</li>
+          <li>Prototyped CalFresh SAWS 2 PLUS support for underserved communities, caregivers, immigrant applicants, and case workers.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">Aura Farm — Campus Social Wellness Game</p>
+          <p class="entry-meta">Oct 2025 – May 2026</p>
+        </div>
+        <p class="entry-org">CodeBox</p>
+        <ul>
+          <li>Developed front-end and product features for a campus social wellness game where students complete real-world challenges, submit photo proof, earn aura points, and rank on leaderboards.</li>
+          <li>Built challenge feeds, profile/tier displays, post history, friend rankings, leaderboards, and moderated challenge submission flows for Cal Poly users.</li>
+          <li>Collaborated with a student developer team and faculty support to prepare deployment.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <h3>Experience</h3>
+
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">Associate Director of Projects — CS+AI Cal Poly</p>
+          <p class="entry-meta">2026 – Present</p>
+        </div>
+        <p class="entry-org">San Luis Obispo, CA</p>
+        <ul>
+          <li>Support the Director of Projects in delivering 4–5 student AI/ML projects across the academic year, from summer project selection through final demo day.</li>
+          <li>Coordinate project lead recruitment, member selection, team assignment, milestone tracking, and biweekly lead check-ins to keep teams unblocked.</li>
+          <li>Partner with club officers to launch larger technical events including Kaggle competitions, hackathons, workshops, and project showcases.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">Developer — CodeBox (Cal Poly Student Developer Club)</p>
+          <p class="entry-meta">Oct 2025 – Present</p>
+        </div>
+        <ul>
+          <li>Build production-oriented web, mobile, and AI/ML projects with a student developer team, contributing 3–5 hours per week.</li>
+          <li>Use Git, React/Next.js, Node.js, TypeScript, deployment workflows, and code reviews while collaborating across skill levels.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <p class="entry-title">Barista — Sequel Tea</p>
+          <p class="entry-meta">Feb 2026 – Present</p>
+        </div>
+        <p class="entry-org">San Luis Obispo, CA</p>
+        <ul>
+          <li>Manage customer service, point-of-sale transactions, drink customization, cleanliness, and opening/closing support in a fast-paced team environment.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Trace Macias · Claremont &amp; San Luis Obispo, CA</div>
+</footer>
+
+</body>
 </html>
