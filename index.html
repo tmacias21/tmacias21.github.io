@@ -1,46 +1,89 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   <title>Trace's Webpage</title> 
-   <link rel="stylesheet" href="styles.css" />
-   </head> 
-  <body>
-    <nav class="navbar">
-        <h1 class="logo"><a href="index.html">Trace</a></h1>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    <main>
-        <h1>My Programming Performance</h1>
-        <div class="about">
-        <div class="about-image"><img src="sandpoint.avif" alt="A scenic overlook of Sandpoint,Idaho." width="600"></div>
-        <div class="about-text">
-        <p>Hello everyone! My name is Trace Macias.</p>
-        <p>About a year and a half ago, I wasn't sure whether I would go to school and pursue STEM or 
-            if I would get a BFA in Musical Theatre. Going into my junior year of high school, I decided
-            to make a big change and leave my public school to attend an arts school. I loved doing school
-            musicals and wanted to be at a place that would develop my performance skills. Being thrown in 
-            the middle of so many incredibly talented actors, singers, and dancers at this new school gave me a different kind of
-            motivation to succeed. I worked hard, and in my senior year, I was cast as a <strong>lead</strong> in one of the musicals.
-            During that quick three-month process to put the show on its feet, I immersed myself in the world of an orphaned Ukrainian rapper
-            who was involved in a freak rollercoaster accident. I learned so much from being around my classmates 
-            in a creative environment, as well as from my director, who was so determined to get the best out of us.
-            Though I ultimately decided not to pursue the performing arts in college, I know that attending CSArts
-            helped me become the person I am today. I strive to be a cast member in every group setting, contributing
-            to the story passionately. I strive to deliver my words truthfully so that audiences can resonate 
-            with my message. I want to be a great performer in Computer Science because I am passionate about 
-            positively impacting communities, but also because I see programming as a stage of its own. Success in 
-            programming relies on collaboration, commitment, and creativity, just like in a musical.  
-        </p> 
-        <a href="https://www.caringfamilymedicine.com/home">Caring Family Medicine</a>
-        </div>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trace Macias — Software Engineer</title>
+<meta name="description" content="Trace Macias — Computer Science student at Cal Poly SLO. Formerly onstage, now building software.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="playbill-strip">
+  <div class="wrap">
+    <div class="brand">Cal Poly SLO <strong>·</strong> Computer Science</div>
+    <nav class="playbill-nav">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow">Now casting</p>
+    <h1 class="title">Trace Macias</h1>
+    <p class="tagline">Software engineer with a <em>former life onstage</em> — traded lead roles in musicals for lead roles in codebases. Building AI-assisted tools at Cal Poly, one production at a time.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="resume.html">View resume</a>
+      <a class="btn btn-ghost" href="portfolio.html">See the work</a>
     </div>
-    </main>
-    <footer class="footer">"© 2025 <Trace's Webpage> | All Rights Reserved"</footer>
-  </body>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head">
+      <p class="section-num">The Program</p>
+      <h2 class="section-title">Two acts, one throughline</h2>
+    </div>
+
+    <div class="act">
+      <div class="act-label">Act I</div>
+      <div>
+        <h3>The Stage</h3>
+        <p>Midway through high school, I left public school for an arts conservatory to chase musical theatre — singing, dancing, and acting alongside classmates who were relentlessly good at all three. Senior year, I landed a lead role in a show about an orphaned Ukrainian rapper who survives a rollercoaster accident. Three months of rehearsal taught me more about collaboration, commitment, and taking direction than almost anything since.</p>
+      </div>
+    </div>
+
+    <div class="act">
+      <div class="act-label">Act II</div>
+      <div>
+        <h3>The Code</h3>
+        <p>I didn't pursue the BFA — I went to Cal Poly for Computer Science instead. But the instinct carried over: I still want to show up prepared, contribute to the ensemble, and deliver something true to the people on the other side of the work. Now that means building AI-assisted tools, leading project teams, and shipping code with the same commitment I once gave a stage.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head">
+      <p class="section-num">Currently</p>
+      <h2 class="section-title">On the call sheet</h2>
+    </div>
+    <div class="skills-grid">
+      <div>
+        <h4>Building</h4>
+        <p>AI-assisted tools with Next.js, TypeScript, and OpenAI's APIs — most recently a government form assistant for underserved applicants.</p>
+      </div>
+      <div>
+        <h4>Leading</h4>
+        <p>Associate Director of Projects at CS+AI Cal Poly, coordinating 4–5 student AI/ML teams from kickoff to demo day.</p>
+      </div>
+      <div>
+        <h4>Learning</h4>
+        <p>Systems programming, data structures, and object-oriented design as part of Cal Poly's CS curriculum.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Trace Macias · Claremont &amp; San Luis Obispo, CA</div>
+</footer>
+
+</body>
 </html>
